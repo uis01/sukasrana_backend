@@ -9,7 +9,10 @@ create table notes
     note     longtext not null
 );
 
+-- untuk valuenya gini
 
+INSERT INTO `notes` (`id`, `title`, `datetime`, `note`) VALUES
+(1, 'Tugas', '2024-06-20 22:20:10', 'Tugas kali ini adalah membuat note dalam bentuk API dari express.');
 
 
 
